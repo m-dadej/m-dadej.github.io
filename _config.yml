@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Mateusz"
   avatar           : "profile.png"
-  bio              : "biography Mateusza for the left-hand sidebar"
-  location         : "Sopot"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  bio              : "Economics student with interest in finance, macroeconomics and data science."
+  location         : "Gdynia, Poland"
+  employer         : "Universtiy of Gdańsk"
+  pubmed           : 
+  googlescholar    : 
+  email            : "mateuszdadej@gmail.com"
+  researchgate     : 
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/m-dadej"
+  github           : "m-dadej"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/mateusz-dadej-b9045b162/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/mateusz_dadej"
+  twitter          : "mateusz_dadej"
   vine             :
   weibo            :
   xing             :
