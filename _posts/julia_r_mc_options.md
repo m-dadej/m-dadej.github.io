@@ -63,6 +63,7 @@ $$ C(S_T, t) = N(d_1)S_t - N(d_2)PV(K)$$
 $$d_1 = \frac{1}{\sigma \sqrt{T} }\bigg[ln \bigg(\frac{S_t}{K}\bigg) + \bigg(r + \frac{\sigma^2}{2} \bigg)t \bigg]$$
 $$d_2 = d_1 - \sigma \sqrt{t}$$
 $$PV(K) = Ke^{-rt}$$
+
 Where,
 
 * $N(\cdot)$ is a C.D.F. of a standard normal distribution
