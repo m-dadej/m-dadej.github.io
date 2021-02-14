@@ -1,26 +1,42 @@
 ---
 title: "Monte Carlo option pricing - comparison of R and Julia languages"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 author: "Mateusz Dadej"
 date: "14 06 2020"
-permalink: /posts/2020/MC_julia_r
-tags:
-useMath: true
+output:
+  html_document:
+    number_sections: true
+    fig_caption: true
+    toc: true
+    fig_width: 7
+    fig_height: 4.5
+    theme: cosmo
+    highlight: tango
+    code_folding: show
+    
 ---
-
 
 This example investigates the performance of R in comparison to Julia language. Additionally shows how to easily call Julia inside R code. With that being said, we will load `JuliaCall` library that enables us to do so. Alternatively, there is also `XRJulia` library available. 
 
-```R
+
+{% highlight r %}
 library(JuliaCall)
-```
+{% endhighlight %}
 
 It is necessery to tell R where is Julia.exe stored, so the loaded library can communicate with it accordingly.
 
-```R
+
+
+
+{% highlight r %}
 julia_setup(JULIA_HOME = "path to the julia.exe")
 # sometimes JuliaCall package requires to also set there a working directory 
 # setwd("path to the folder with julia.exe")
-```
+{% endhighlight %}
 
 
 Next we will define function that price [European options](https://en.wikipedia.org/wiki/Option_style#American_and_European_options) based on Monte Carlo simulation. Namely, simulates random path of prices many times for a given set of parameters and calculates value of option based on expected value of simulated payoffs. 
@@ -33,7 +49,8 @@ Where $W_t$, $\mu$ and $\sigma$ are respectively a [Wiener process](https://en.w
 Price dynamics model as well as chosen derivative is not very complex. The point of herein document is to compare R and Julia performance on some well-known example. As show below, it is also easy to price such an option with the same price dynamics using a well known workhorse in finance, namely [Black-Scholes formula](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model#Black%E2%80%93Scholes_formula)
 
 
-```R
+
+{% highlight r %}
 MC_option_pricing <- function(K, S, r, mu, sig, t, n_sim, call_put){
   
   # defining function that generate geometric brownian motion
@@ -54,13 +71,11 @@ MC_option_pricing <- function(K, S, r, mu, sig, t, n_sim, call_put){
   
   # calculating expected value of option
   mean(pmax(payoff, 0))}
-```
+{% endhighlight %}
 
 Now we can check if the function is working properly. To do so, we will define Black-Scholes formula with a following equation for pricing call options:
 
 $$ C(S_T, t) = N(d_1)S_t - N(d_2)PV(K)$$
-
-
 $$d_1 = \frac{1}{\sigma \sqrt{T} }\bigg[ln \bigg(\frac{S_t}{K}\bigg) + \bigg(r + \frac{\sigma^2}{2} \bigg)t \bigg]$$
 $$d_2 = d_1 - \sigma \sqrt{t}$$
 $$PV(K) = Ke^{-rt}$$
@@ -73,8 +88,8 @@ Where,
 * $r$ - Interest rate of risk-free asset
 * $\sigma$ - Returns volatility of underlying asset price
 
-```{r }
 
+{% highlight r %}
 BlackScholes <- function(K, S, r, sig, T, call_put){
   
   d1 <- (log(S/K) + (r + sig^2/2)*T) / (sig*sqrt(T))
@@ -96,13 +111,25 @@ T <- 100
 r <- 0.001
 
 BlackScholes(K, S, r, sig, T, 0); MC_option_pricing(K, S, r, mu, sig, T, 10e3, call_put = 0)
+{% endhighlight %}
 
-```
+
+
+{% highlight text %}
+## [1] 8.121264
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## [1] 8.153884
+{% endhighlight %}
 Prices are almost the same. The difference is insignificant and is only related to the number of simulations executed by `MC_option_pricing` function. Results from this function will converge to the result of analytical function as number of simulations increases. 
 
 We will use `julia_command()` function to define very similar function but in Julia, which can be used in R.
 
-```{r, message=FALSE, warning=FALSE}
+
+{% highlight r %}
 julia_command("
 function MC_option_pricing(K, S, mu, r, sig, t, n_sim, call_put)
               
@@ -128,17 +155,24 @@ end
 payoff[findall(payoff .<= 0)] .= 0
 return mean(payoff)
 end")
+{% endhighlight %}
 
-```
+
+
+{% highlight text %}
+## MC_option_pricing (generic function with 1 method)
+{% endhighlight %}
 Alternatively, we can import whole script to R.
 
-```{r}
+
+{% highlight r %}
 #julia_source("path/monte_carlo_option_pricing.jl")
-```
+{% endhighlight %}
 
 Next, we can define variables for both of the functions to compute. The most important will be the number of simulations that a particular function have to perform. This will ultimately determine how computationally expensive function will be.
 
-```{r}
+
+{% highlight r %}
 mu <- 0 # drift term
 sig <- 0.02 # volatility (standard deviation)
 t <- 100 # time to expiration
@@ -147,53 +181,36 @@ K <- 40 # strike price at expiration
 S <- 60 # stock price at time tt = 0
 call_put <- 0 # 1 for call option, 0 for put
 r <- 0.002 # daily risk free rate 
-```
+{% endhighlight %}
 
 Script for Julia have dependency, so we should also load a `Distributions` library.
 
-```{r}
-julia_library("Distributions")
-```
 
-Now we will use both functions to price put option based on `r as.integer(n_sim)` simulations, each with `r t` rows/observations.
+{% highlight r %}
+julia_library("Distributions")
+{% endhighlight %}
+
+Now we will use both functions to price put option based on 1000000 simulations, each with 100 rows/observations.
 
 Note that Julia is sensitive to object types and sometimes need to have objects specified in explicit way. (use of as.integer() function).
 
-```{r echo = FALSE}
-julia_setup(JULIA_HOME = "C:/Users/HP/AppData/Local/Programs/Julia/Julia-1.4.2/bin")
 
-# some times it is necessary to also set there a working directory
-setwd("C:/Users/HP/AppData/Local/Programs/Julia/Julia-1.4.2/bin")
 
-r_time <- system.time(
-  
-  r_price <- MC_option_pricing(K, S, mu, r, sig, t, n_sim, call_put = 1)
-  
-  )
 
-julia_time <- system.time(
-  
-  julia_price <- julia_call("MC_option_pricing", K, S, mu, r, sig, as.integer(t), as.integer(n_sim), 1)
-  
-  )
-
-```
-
-```{r eval = FALSE}
-
+{% highlight r %}
 r_time <- system.time( r_price <- MC_option_pricing(K, S, mu, r, sig, t, n_sim, call_put = 1) )
 
 julia_time <- system.time(julia_price <- julia_call("MC_option_pricing", K, S, mu, r, sig, as.integer(t), as.integer(n_sim), 1)  )
+{% endhighlight %}
 
-```
+As before, Monte Carlo method have stochastic properities so the price vary a little. That is why, in order to obtain very precise value, it is neccessery to execute many simulations. According to R the price is 12 and Julia said it costs 12.016, a difference of 0.016. 
 
-As before, Monte Carlo method have stochastic properities so the price vary a little. That is why, in order to obtain very precise value, it is neccessery to execute many simulations. According to R the price is `r round(r_price, 3)` and Julia said it costs `r round(julia_price,3)`, a difference of `r round(julia_price - r_price, 3)`. 
-
-The computation took `r r_time[1]` seconds for R and `r julia_time[1]` seconds for Julia, a difference of `r r_time[1] - julia_time[1]` seconds. Julia was `r round(r_time[1]/julia_time[1], 3) ` times faster.
+The computation took 15.92 seconds for R and 5.18 seconds for Julia, a difference of 10.74 seconds. Julia was 3.073 times faster.
 
 It might be also interesting how long it takes to execute these functions many times but with fewer simulations. Package `microbenchmark` enables to do it easily.
 
-```{r}
+
+{% highlight r %}
 library(microbenchmark)
 set.seed(123)
 
@@ -201,14 +218,26 @@ test <- microbenchmark(R = MC_option_pricing(K, S, mu, r, sig, t, 10^5, call_put
                Julia = julia_call("MC_option_pricing", K, S, mu, r, sig, as.integer(t), as.integer(10^5), 1))
 
 summary(test)
-```
+{% endhighlight %}
 
-As we see in the summary, Julia function is on average `r round(summary(test)[1,4]/summary(test)[2,4], 3)` faster than R (by a median it's x `r round(summary(test)[1,5]/summary(test)[2,5], 3)`). Over 100 repeats, none of R executions was faster than the slowest one of Julia. 
 
-```{r, message=FALSE}
+
+{% highlight text %}
+##    expr       min       lq    mean    median       uq      max neval
+## 1     R 1428.3412 1537.729 1764.52 1654.8486 1842.077 3981.862   100
+## 2 Julia  470.4997  545.895  664.40  607.7693  721.426 1374.852   100
+{% endhighlight %}
+
+As we see in the summary, Julia function is on average 2.656 faster than R (by a median it's x 2.723). Over 100 repeats, none of R executions was faster than the slowest one of Julia. 
+
+
+{% highlight r %}
 library(ggplot2)
 
 autoplot(test)+
   labs(title = "R vs Julia", 
        subtitle = "Average time of calculating put option value with monte carlo simulation (10000 simulations)")
-```
+{% endhighlight %}
+
+![plot of chunk unnamed-chunk-13](/assets/Rfig/unnamed-chunk-13-1.svg)
+
