@@ -2,6 +2,9 @@
 main:
   - title: "About"
     url: /cv/
+    
+  - title: "Data visualization"
+    url: /data-viz/
 
   - title: "Publications"
     url: /publications/
@@ -9,8 +12,6 @@ main:
   - title: "Posts"
     url: /year-archive/
 
-  - title: "Data visualization"
-    url: /data-viz/
   
     
 

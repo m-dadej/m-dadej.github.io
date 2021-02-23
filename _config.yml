@@ -181,6 +181,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  Data visualization: 
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -209,6 +212,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # Data visualization
+  - scope:
+      path: ""
+      type: Data visualization
+    values:
+      layout: Data visualization
+      author_profile: true
+      share: true
   # _teaching
   - scope:
       path: ""
