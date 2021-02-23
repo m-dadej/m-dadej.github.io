@@ -1,9 +1,9 @@
 ---
-layout: archive
 title: "Data visualization"
 permalink: /data_viz/
 author_profile: true
 ---
+
 
 
 asdaaaaaaaaaaaaaaaaaaa
