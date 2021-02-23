@@ -16,15 +16,19 @@ I keep them here for my own purpose, as a sort of library.
 
 ![](/images/data_viz/vacc_race.gif)
 
+![](/images/data_viz/joy_div_plot_corona.svg)
+
+There is an interesting anegdote with graph above - some random guy apparently made himself a t-shirt with it and send a picture of it to me :)
+
 ![](/images/data_viz/acc_countries.png)
 
-![](/images/data_viz/szczepienia.svg)
+![](/images/data_viz/debiuty_gpw.svg)
 
 ![](/images/data_viz/smiertelnosc.gif)
 
 ![](/images/data_viz/ridge_covid.svg)
 
-![](/images/data_viz/cross_section_corr.png)
+![](/images/data_viz/cross_section_corr.PNG)
 
 
 
