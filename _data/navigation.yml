@@ -4,7 +4,7 @@ main:
     url: /cv/
     
   - title: "Data visualization"
-    url: /data-viz/
+    url: /data_viz/
 
   - title: "Publications"
     url: /publications/
