@@ -12,13 +12,15 @@ I keep them here for my own purpose, as a sort of library.
 
 ![](/images/data_viz/wig_race.gif)
 
+![](/images/data_viz/polls_plot_recent.svg)
+
 ![](/images/data_viz/facet_pe.svg)
 
 ![](/images/data_viz/vacc_race.gif)
 
 ![](/images/data_viz/joy_div_plot_corona.svg)
 
-There is an interesting anegdote with graph above - some random guy apparently made himself a t-shirt with it and send a picture of it to me :)
+The one above should resemble Joy Division album cover. There is also an interesting anegdote about it - some random guy apparently made himself a t-shirt with it and send a picture of it to me :)
 
 ![](/images/data_viz/acc_countries.png)
 
