@@ -5,7 +5,11 @@ options(stringsAsFactors = FALSE)
 # http://www.jonzelner.net/jekyll/knitr/r/2014/07/02/autogen-knitr/
 # http://gtog.github.io/workflow/2013/06/12/rmarkdown-to-rbloggers/
 
-KnitPost <- function(bashwd = "", convert_file = "", overwrite = FALSE) {
+ 
+   overwrite <- TRUE
+   bashwd <- ""
+   convert_file <- ""
+   
    # CONVERT ALL RMD FILES TO MARKDOWN?
    #    REQUIRED: overwrite
    # CONVERT A SPECIFIC RMD FILE TO MARKDOWN?
@@ -18,11 +22,11 @@ KnitPost <- function(bashwd = "", convert_file = "", overwrite = FALSE) {
    #            when converting all Rmd files
 
    # directory of jekyll blog (including trailing slash)
-   site.path <- "/home/taha/jekyll/chepec/"
+   site.path <- "C:/Users/HP/Documents/inne_programowanie/academicpages.github.io/"
    # directory where your Rmd-files reside (relative to base)
    rmd.path <- paste0(site.path, "_knitr")
    # directory to save figures
-   fig.dir <- "figures/"
+   fig.dir <- "images/"
    # directory for converted markdown files
    posts.path <- paste0(site.path, "_posts")
    # cache
@@ -121,4 +125,6 @@ KnitPost <- function(bashwd = "", convert_file = "", overwrite = FALSE) {
             envir = parent.frame(),
             quiet = TRUE)
    }
-}
+
+
+KnitPost(overwrite = TRUE)
