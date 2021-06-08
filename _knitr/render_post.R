@@ -7,9 +7,16 @@ options(stringsAsFactors = FALSE)
 
  
    overwrite <- TRUE
-   bashwd <- ""
-   convert_file <- ""
+   bashwd <- "C:/Users/HP/Documents/inne_programowanie/academicpages.github.io/_knitr"
+   convert_file <- "julia_r_mc_option.Rmd"
    
+   # moj komentarz:
+   # lepiej pojedyncze posty konwertowac.
+   # aby to zrobic bashwd musi dac sciezke do miejsca z plikami .Rmd
+   # a convert_file to nazwa pliku
+   # zeby wszystkie skonwertowac to trzeba zostawic bashwd puste tak samo jak convert_file chyba
+   
+   # oryginalny komentarz ze skryptu:
    # CONVERT ALL RMD FILES TO MARKDOWN?
    #    REQUIRED: overwrite
    # CONVERT A SPECIFIC RMD FILE TO MARKDOWN?
@@ -62,22 +69,19 @@ options(stringsAsFactors = FALSE)
       # setwd to Rmd folder
       setwd(rmd.path)
 
-      files.rmd <-
-         data.frame(rmd = list.files(
-            path = rmd.path,
-            full.names = TRUE,
-            pattern = "\\.Rmd$",
-            ignore.case = TRUE,
-            recursive = FALSE))
+      files.rmd <- data.frame(rmd = list.files(
+                     path = rmd.path,
+                     full.names = TRUE,
+                     pattern = "\\.Rmd$",
+                     ignore.case = TRUE,
+                     recursive = FALSE))
 
-      files.rmd$corresponding.md.file <-
-         paste0(posts.path, "/",
-            basename(gsub(pattern = "\\.Rmd$",
-               replacement = ".md",
-               x = files.rmd$rmd)))
+      files.rmd$corresponding.md.file <- paste0(posts.path, "/",
+                                                basename(gsub(pattern = "\\.Rmd$",
+                                                   replacement = ".md",
+                                                   x = files.rmd$rmd)))
 
-      files.rmd$corresponding.md.exists <-
-         file.exists(files.rmd$corresponding.md.file)
+      files.rmd$corresponding.md.exists <- file.exists(files.rmd$corresponding.md.file)
       files.rmd$md.overwrite <- overwrite
       files.rmd$md.render <- FALSE
       # check if corresponding md file exists for each Rmd file,
