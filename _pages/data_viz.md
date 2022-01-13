@@ -16,6 +16,8 @@ I keep them here for my own purpose, as a sort of library.
 
 ![](/images/data_viz/facet_pe.svg)
 
+![](/images/data_viz/mapa_ev2_ang.png)
+
 ![](/images/data_viz/vacc_race.gif)
 
 ![](/images/data_viz/joy_div_plot_corona.svg)
