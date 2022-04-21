@@ -18,7 +18,7 @@ Education
 * M.S. In Economics, University of Pisa, 2020
   - Erasmus Program, Lectures in Advanced econometrics, Advanced macroeconomics, Statistics and Risk management in financial institutions
 * B.S. in Economics, University of Gdańsk, 2018
-  - Thesis: Banrkuptcy prediction models
+  - Thesis: Bankruptcy prediction models
 
 Experience
 ======
