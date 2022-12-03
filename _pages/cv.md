@@ -22,7 +22,7 @@ Education
 
 Experience
 ======
-* UBS, Quantitative analyst - Intern, 2021
+* UBS, Quantitative analyst, 2021
   - Statistical modeling of financial and macroeconomic data for the purpose of stress testing. Development and maintenance of the models in R programming language.
 * State Street, Financial reporting internship, 2019.10 - 2020-02
   - Preparing Financial statements of mutual funds. From transaction level data into final .pdfs for audit.
@@ -40,7 +40,6 @@ Skills
   - Advanced knowledge of R programming language (tidyverse, ggplot2, keras, Rmarkdown)
   - Good knowledge of MS office
   - Basic knowledge of SQL and Python
-* Eagerness to learn
 
 Publications
 ======
