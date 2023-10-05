@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "About me"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -13,12 +13,10 @@ Education
 ======
 * Phd, Analytics in Economics, University of Brescia, 2021 - currently
   - With research area on methods and models in finance.
-* M.S. in Economics, University of Gdańsk, 2020
+* B.S and M.S. in Economics, University of Gdańsk, 2020
   - Thesis: Default risk valuation of consulting firms.
 * M.S. In Economics, University of Pisa, 2020
   - Erasmus Program, Lectures in Advanced econometrics, Advanced macroeconomics, Statistics and Risk management in financial institutions
-* B.S. in Economics, University of Gdańsk, 2018
-  - Thesis: Bankruptcy prediction models
 
 Experience
 ======
@@ -36,10 +34,10 @@ Skills
   - Hands-on experience in machine learning
   - General proficiency in data anlysis
 * Advanced knowledge of macroeconomics and finance. Proven by my scientific papers.
-* Computer Literacy:
+* Programming:
   - Advanced knowledge of R programming language (tidyverse, ggplot2, keras, Rmarkdown)
-  - Good knowledge of MS office
-  - Basic knowledge of SQL and Python
+  - Advanced in Julia programming language (I developed a MarSwtiching.jl package for Markov switching models)
+  - Good knowledge of Python (pandas, numpy, matplotlib)
 
 Publications
 ======
@@ -60,15 +58,17 @@ III and I place in "Great Finance Challange"
 
 Courses & licences
 ======
+* Summer school on Risk, Uncertainty in Economics, Insurance and Finance, University of Bielefeld, 2023
+  - week long workshop with top lecturers on math in finance 
+  - presentation of my thesis on endogenous financial networks
 * PRINCE2® Foundation
   - Id of certificate: GR656215047MD
 * Introduction to deep learning in R with keras, 2019
   - Workshop during SatRday 2019 conference for R enthusiasts.
 * Business Academy by Deloitte, Mergers and Acquisitioons, 2018
   - Few days workshop by Deloitte division responsible for M&A in Poznan.
-* Summer School of Economics, Bankowy Fundusz Gwarancyjny, 2018
-  - Two day project of BFG, consisting of workshops ran by their employees (also by the president
-  of BFG).
+* Summer School of Economics, Bankowy Fundusz Gwarancyjny (Polish deposit insurer and bank resolution entity), 2018
+  - Two day project of BFG, consisting of workshops ran by their employees 
 
 Additional projects
 =====
@@ -76,5 +76,5 @@ Additional projects
 * Lion's Den risk modeling challenge
   - Hackathon on risk management and predictive modeling organized by ING Bank Śląski. 8 hour long programming of default prediction model.
 
-* Conference "Changes in financial sector of Poland and the World"
+* Conference "Changes in financial sector of Poland and the World", Economics Faculty, University of Gdańsk, 2017-2019
   - Organization of XXIII, XXIV & XXV scientific conference during my activity in student's association.
