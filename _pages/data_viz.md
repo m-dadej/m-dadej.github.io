@@ -9,6 +9,7 @@ You may find more charts on my [twitter](https://twitter.com/mateusz_dadej).
 
 I keep them here for my own purpose, as a sort of library.
 
+![](/images/data_viz/hold_time_rets.svg)
 
 ![](/images/data_viz/wibor_curve15_eng.gif)
 
