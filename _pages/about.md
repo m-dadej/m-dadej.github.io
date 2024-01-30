@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Personal website of Mateusz Dadej"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
