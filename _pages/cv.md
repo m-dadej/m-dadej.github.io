@@ -20,6 +20,7 @@ Education
 
 Experience
 ======
+* University of Mannheim, Visiting scholar, Summer semester of 2024
 * UBS, Quantitative analyst, 2021
   - Statistical modeling of financial and macroeconomic data for the purpose of stress testing. Development and maintenance of the models in R programming language.
 * State Street, Financial reporting internship, 2019.10 - 2020-02
@@ -33,10 +34,9 @@ Skills
   - Econometrics and statstics
   - Hands-on experience in machine learning
   - General proficiency in data anlysis
-* Advanced knowledge of macroeconomics and finance. Proven by my scientific papers.
 * Programming:
   - Advanced knowledge of R programming language (tidyverse, ggplot2, keras, Rmarkdown)
-  - Advanced in Julia programming language (I developed a MarSwtiching.jl package for Markov switching models)
+  - Advanced in Julia programming language (I developed a [MarSwitching.jl](https://github.com/m-dadej/MarSwitching.jl) package for Markov switching models)
   - Good knowledge of Python (pandas, numpy, matplotlib)
 
 Publications
@@ -53,11 +53,10 @@ Achievements
 * Best economic paper on VI Interdisciplinary Student's Conference in Szczecin, 2020
 III and I place in "Great Finance Challange" 
   - Competition in financial knowledge organized by Refinitiv
-* Finalist of national competition "Karierosfera" in category of financial markets
-  - Competition with over 800 participants on topics such as derivatives, financial modeling and capital investments
 
 Courses & licences
 ======
+* Graz Schumpeter School "Agent-based Economics", University of Graz, Austria, 2024
 * Summer school on Risk, Uncertainty in Economics, Insurance and Finance, University of Bielefeld, 2023
   - week long workshop with top lecturers on math in finance 
   - presentation of my thesis on endogenous financial networks
