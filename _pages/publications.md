@@ -7,7 +7,7 @@ author_profile: true
 
 ## In media:
 
-- (In polish) "O unii rynków kapitałowych Unia Europejska dyskutuje już od dekady" W ramach kolumny TEP o gospodarce, Towarzystwo Ekonomistów Polskich. [link](https://tep.org.pl/unia-rynkow-kapitalowych/)
+- (In polish) "O unii rynków kapitałowych Unia Europejska dyskutuje już od dekady" as part of opinions column for Association of Polish Economists. [link](https://tep.org.pl/unia-rynkow-kapitalowych/)
 
 ## Research papers:
 
