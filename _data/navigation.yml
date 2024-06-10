@@ -1,6 +1,6 @@
 # main links links
 main:
-  - title: "About"
+  - title: "Vita"
     url: /cv/
     
   - title: "Data visualization"
@@ -12,11 +12,11 @@ main:
   - title: "Talks"
     url: /talks/
 
-  - title: "Posts"
-    url: /year-archive/
+#  - title: "Posts"
+#    url: /year-archive/
 
-  - title: "Projects"
-    url: /projects/
+  - title: "Code"
+    url: /code/
 
   
     

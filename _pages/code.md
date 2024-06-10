@@ -1,12 +1,10 @@
 ---
 layout: archive
 title: ""
-permalink: /projects/
+permalink: /code/
 author_profile: true
 ---
 
-Software
-======
 
 * [MarSwitching.jl](https://github.com/m-dadej/MarSwitching.jl) - Julia package for Markov switching models (also called Regime-switching models). Listed in general registry of Julia packages (equivalent of R's CRAN and Python's pip). You can also read about it from Bogumił Kamiński's [blogpost](https://bkamins.github.io/julialang/2023/12/22/mars.html) (author of e.g. [DataFrames.jl](https://github.com/JuliaData/DataFrames.jl)).
 
