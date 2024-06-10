@@ -17,7 +17,7 @@ University of Reading, United Kingdom
 <br> <br>
 <b>Date</b>: June, 2024 
 <br>
-<b>Title</b>: Systemic risk and financial connectedness: empirical evidence 
+<b>Title</b>: Systemic risk and financial connectedness: empirical evidence - [slides](/files/empirical_marseille.pdf)
 <br>
 <b>Seminar</b>: [QFFE - Quantitative Finance and Financial Econometrics](https://qffe2024.sciencesconf.org/)
 <br>

@@ -3,11 +3,10 @@ title: "Data visualization"
 permalink: /data_viz/
 author_profile: true
 ---
-Here are some of the data visualizations i made. I have done them in R with ggplot2 library. These are my favourite tools for data viz. If you want a code feel free to contact me, as i usually dont keep them on my github.
+Here are some of the data visualizations i made. I have done them in R with ggplot2 library.
 
-You may find more charts on my [twitter](https://twitter.com/mateusz_dadej).
+If you want a code feel free to contact me, as i usually dont keep them on my github.
 
-I keep them here for my own purpose, as a sort of library.
 
 ![](/images/data_viz/hold_time_rets.svg)
 
