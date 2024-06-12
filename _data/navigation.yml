@@ -2,9 +2,6 @@
 main:
   - title: "CV"
     url: /files/short_cv.pdf
-    
-  - title: "Data visualization"
-    url: /data_viz/
 
   - title: "Publications"
     url: /publications/
@@ -17,6 +14,10 @@ main:
 
   - title: "Code"
     url: /code/
+        
+  - title: "Data visualization"
+    url: /data_viz/
+
 
   
     
