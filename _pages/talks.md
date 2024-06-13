@@ -1,4 +1,5 @@
 ---
+layout: archive
 title: "Given talks"
 permalink: /talks/
 author_profile: true
