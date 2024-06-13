@@ -12,4 +12,4 @@ I am a Phd candidate in Analytics for Economics and Management at the University
 
 My research centers around the nexus of finance and macroeconomics. I am also interested in applied quantitative methods in economics. 
 
-My first name is pronounced as Muh-TEH-oosh
+My first name is pronounced as Muh-TEH-woosh
