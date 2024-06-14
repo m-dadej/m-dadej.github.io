@@ -28,7 +28,7 @@ University of Reading, United Kingdom
 <br>
 <b>Title</b>: Systemic risk and financial connectedness: empirical evidence 
 <br>
-<b>Seminar</b>: [3rd Prof. Jan Winiecki Scientific Conference "Economics shocks, resilence and institutions"](https://www.vcpu.europa-uni.de/en/research/conferences/index.html)
+<b>Seminar</b>: [3rd Prof. Jan Winiecki Scientific Conference "Economic shocks, resilience and institutions"](https://www.vcpu.europa-uni.de/en/research/conferences/index.html)
 <br>
 <b>Location</b>: European University Viadrina, Germany
 
