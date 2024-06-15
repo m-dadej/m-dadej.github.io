@@ -28,7 +28,7 @@ If you want a code feel free to contact me, as i usually dont keep them on my gi
 
 ![](/images/data_viz/joy_div_plot_corona.svg)
 
-The one above should resemble Joy Division album cover. There is also an interesting anegdote about it - some random guy apparently made himself a t-shirt with it and send a picture of it to me :)
+The one above should resemble Joy Division album cover. There is also an interesting anegdote about it - some random guy apparently made himself a t-shirt with it and sent a picture of it to me :)
 
 ![](/images/data_viz/ridge_covid.svg)
 
