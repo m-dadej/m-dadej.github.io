@@ -5,7 +5,16 @@ author_profile: true
 ---
 
 <br> <br>
-<b>Date</b>: July, 2024 
+<b>Date</b>: September, 2024
+<br>
+<b>Title</b>: Systemic risk and financial connectedness: empirical evidence
+<br>
+<b>Seminar</b>: [The 29th Forecasting Financial Markets Conference (FFM29)](https://ffmconference.com/)
+<br>
+<b>Location</b>: University of Oxford, United Kingdom
+
+<br> <br>
+<b>Date</b>: July, 2024
 <br>
 <b>Title</b>: Systemic risk and financial connectedness: empirical evidence 
 <br>
