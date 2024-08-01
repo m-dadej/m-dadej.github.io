@@ -42,6 +42,15 @@ University of Reading, United Kingdom
 <b>Location</b>: European University Viadrina, Germany
 
 <br> <br>
+<b>Date</b>: October, 2023
+<br>
+<b>Title</b>: Risk Aversion Heterogeneity and Contaigion in Endogenous Financial Networks
+<br>
+<b>Seminar</b>: Internal Seminar of Phd students at the Department of Economics
+<br>
+<b>Location</b>: University of Brescia, Italy
+
+<br> <br>
 <b>Date</b>: April, 2023 
 <br>
 <b>Title</b>: Risk Aversion Heterogeneity and Contaigion in Endogenous Financial Networks
