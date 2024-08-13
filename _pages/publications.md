@@ -13,10 +13,10 @@ author_profile: true
 
 ## Working papers:
 
-["Systemic Risk and Financial Connectedness:
+- ["Systemic Risk and Financial Connectedness:
 Empirical Evidence"](https://m-dadej.github.io/files/connectedness.pdf) with Roberto Savona. Check out the [code](https://github.com/m-dadej/robust_fragile) and [slides](https://m-dadej.github.io/files/empirical_marseille.pdf). 
 
-"Risk Aversion Heterogeneity and Contagion in
+- "Risk Aversion Heterogeneity and Contagion in
 Endogenous Financial Networks" with Andrea Modena (Draft soon).
 
 ## Published papers:
