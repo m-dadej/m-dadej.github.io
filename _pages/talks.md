@@ -7,11 +7,20 @@ author_profile: true
 <br> <br>
 <b>Date</b>: September, 2024
 <br>
-<b>Title</b>: Systemic risk and financial connectedness: empirical evidence
+<b>Title</b>: Systemic risk and financial connectedness: empirical evidence - [slides](/files/empirical_oxford.pdf)
 <br>
 <b>Seminar</b>: [The 29th Forecasting Financial Markets Conference (FFM29)](https://ffmconference.com/)
 <br>
 <b>Location</b>: University of Oxford, United Kingdom
+
+<br> <br>
+<b>Date</b>: September, 2024
+<br>
+<b>Title</b>: Systemic risk and financial connectedness: empirical evidence
+<br>
+<b>Seminar</b>: [6th Warsaw Money-Macro-Finance Conference](https://icea-poland.wne.uw.edu.pl/)
+<br>
+<b>Location</b>: University of Warsaw, Poland
 
 <br> <br>
 <b>Date</b>: July, 2024
