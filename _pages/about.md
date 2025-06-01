@@ -12,4 +12,4 @@ I am an economist at Coface, covering the Central and Eastern European region. I
 
 My interest centers around the nexus of finance and macroeconomics. I am also interested in applied quantitative methods in economics. 
 
-My first name is pronounced as Muh-TEH-woosh ({{IPA3|maˈtɛ<sup>w</sup>uʃ}}).
+My first name is pronounced as Muh-TEH-woosh.
