@@ -15,7 +15,7 @@ If you work any economic related topic, please feel free to reach out at: mateus
 
 ## Press:
 
-- Comment for "L'express": [On polish miracle](https://www.lexpress.fr/economie/politique-economique/pologne-les-secrets-dun-miracle-economique-dans-une-europe-en-berne-G6JKW5VRPNE2LBCAICLZ2K7SJQ/)
+- For "L'express": [Interview](https://m-dadej.github.io/files/06-2025_LExpress_Mateusz_Dadej_Présidentielle_en_Pologne.pdf)  on polish presidenial election 2025, [comment](https://www.lexpress.fr/economie/politique-economique/pologne-les-secrets-dun-miracle-economique-dans-une-europe-en-berne-G6JKW5VRPNE2LBCAICLZ2K7SJQ/)  on polish miracle.
 
 - For "[Rzeczpospolita](https://en.wikipedia.org/wiki/Rzeczpospolita_(newspaper))" (one of the most frequently cited media source in Poland):  
     - economic opinion [7.05.2025](https://m-dadej.github.io/files/rzeczpospolita_prognozy_gospodarcze_2025_05_07.pdf), 
