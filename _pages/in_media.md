@@ -7,7 +7,7 @@ author_profile: true
 
 I frequently provide commentary to the media, often in my capacity as a regional economist at Coface. Below is a selection of media quotes, though the list is not exhaustive.
 
-If you work any economic related topic, please feel free to reach out at: mateusz.dadej {at} coface.com
+If you are a journalist and work on any economic related topic, please feel free to reach out at: mateusz.dadej {at} coface.com
 
 ## TV:
 
