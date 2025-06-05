@@ -16,9 +16,10 @@ If you work any economic related topic, please feel free to reach out at: mateus
 ## Press:
 
 - For "L'express": [Interview](https://m-dadej.github.io/files/06-2025_LExpress_Mateusz_Dadej_Présidentielle_en_Pologne.pdf)  on polish presidenial election 2025, [comment](https://www.lexpress.fr/economie/politique-economique/pologne-les-secrets-dun-miracle-economique-dans-une-europe-en-berne-G6JKW5VRPNE2LBCAICLZ2K7SJQ/)  on polish miracle.
+- For "Les Echos": [comment](https://m-dadej.github.io/files/les_echos_06052025.pdf)  on Bulgaria adopting euro
 
 - For "[Rzeczpospolita](https://en.wikipedia.org/wiki/Rzeczpospolita_(newspaper))" (one of the most frequently cited media source in Poland):  
-    - economic opinion [7.05.2025](https://m-dadej.github.io/files/rzeczpospolita_prognozy_gospodarcze_2025_05_07.pdf), 
+    - economic opinion [7.05.2025](https://m-dadej.github.io/files/rzeczpospolita_prognozy_gospodarcze_2025_05_07.pdf), [06.05.2025](https://m-dadej.github.io/files/pro_rp_pl_2025_06_04.pdf)
     - [on corporate insolvencies](https://www.rp.pl/biznes/art42123111-kazdego-dnia-niewyplacalnosc-oglaszaja-22-firmy)
 - For "Tygodnik Solidarność": [On corporate insolvencies in 2025](https://www.tysol.pl/a139162-coraz-wiecej-bankrutow-w-polsce-dwa-tysiace-niewyplacalnych-firm)
 
