@@ -11,7 +11,9 @@ If you are a journalist and work on any economic related topic, please feel free
 
 ## TV:
 
-- For TVP world: [On the consequences of the Trade Wars on CEE economy](https://www.youtube.com/watch?v=zF8azaYq9ys&ab_channel=TVPWORLD)
+- For TVP world: 
+    - [On the consequences of the Trade Wars on CEE economy](https://www.youtube.com/watch?v=zF8azaYq9ys&ab_channel=TVPWORLD)
+    - [On economic prospects of Moldova and its future in EU](https://youtu.be/kgXNEUCUBU0?si=c9yJwbkn2WTnAHbQ)
 
 ## Press:
 
