@@ -5,7 +5,7 @@ permalink: /in_media/
 author_profile: true
 ---
 
-As a **Head of economic research for CEE region** at Coface, I regularly provide expert commentary to international and regional media outlets on topics such as economic forecasts, corporate insolvencies, geopolitical impacts on growth, trade dynamics, and country-specific developments.
+As a **Head of economic research for CEE region** at Coface, I regularly provide expert commentary to international and regional media outlets on topics such as macroeconomy, corporate insolvencies, geopolitical impacts on growth, trade dynamics, and country-specific developments.
 
 Below is a curated (though non-exhaustive) selection of my  media appearances and contributions. Journalists working on economic, political-economy, or CEE-related topics are welcome to contact me for interviews, quotes, or background analysis.
 
