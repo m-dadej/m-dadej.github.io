@@ -13,17 +13,11 @@ Below is a curated (though non-exhaustive) selection of my  media appearances an
 
 ### Television Appearances
 
-- **Polsat** — Commentary on layoffs in the business services sector  
-  [Screenshot from appearance](https://m-dadej.github.io/files/jankowski_1009.png)
-
-- **TVP World**  
-  - Consequences of trade wars on the CEE economy  
-    [Watch here](https://www.youtube.com/watch?v=zF8azaYq9ys&ab_channel=TVPWORLD)  
-  - Economic prospects for Moldova and its EU integration path  
-    [Watch here](https://youtu.be/kgXNEUCUBU0?si=c9yJwbkn2WTnAHbQ)
-
-- **BIZNES24** — Analysis of international trade trends  
-  [Watch here](https://www.youtube.com/watch?v=41vic1Tdej8&ab_channel=TelewizjaBIZNES24)
+- **TVN 24** - [Comment on the fuel crisis in Poland](https://tvn24.pl/biznes/z-kraju/ekspert-swiat-zuzywa-wiecej-paliwa-niz-produkuje-st9054654)
+- **Polsat News** — [Commentary on layoffs in the business services sector ](https://m-dadej.github.io/files/jankowski_1009.png)
+- **TVP info** - [Comment on the energy crisis and Polish economy](https://www.tvp.info/95023947/portalcast-droga-ropa-i-blokada-ciesniny-ormuz-co-czeka-polska-gospodarke)
+- **TVP World** [Consequences of trade wars on the CEE economy  ](https://www.youtube.com/watch?v=zF8azaYq9ys&ab_channel=TVPWORLD)  
+- **BIZNES24** — [Analysis of international trade trends ](https://www.youtube.com/watch?v=41vic1Tdej8&ab_channel=TelewizjaBIZNES24)
 
 ### Print and Online Media Interviews / Quotes
 
@@ -59,8 +53,7 @@ Below is a curated (though non-exhaustive) selection of my  media appearances an
 - **SeeNews** — Coface analysis on rising corporate insolvencies in Slovenia, Romania, Croatia, and wider SEE in 2024  
   [Article link](https://seenews.com/news/slovenia-romania-croatia-see-rise-in-insolvency-rates-in-2024-coface-1276065)
 
-- **Bulgaria** — profit.bg on CEE insolvencies in 2024  
-  [Article link](https://profit.bg/article/2025052811204274108)
+- **Bulgaria** — [Interview on the consequences of the Middle East crisis on Bulgarian economy](https://www.economic.bg/en/a/view/the-biggest-risk-to-the-bulgarian-economy-in-2026-is-the-crisis-in-the-middle-east)
 
 - **Czech Republic** — kurzy.cz on post-election outlook following ANO's victory and key risks/challenges  
   [Article link](https://zpravy.kurzy.cz/834032-povolebni-vyvoj-ocima-analytiku-coface-6-klicovych-rizik-a-vyzev-ktere-cekaji-na-novou-ceskou/)
