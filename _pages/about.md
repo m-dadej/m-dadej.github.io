@@ -1,7 +1,8 @@
 ---
 permalink: /
-title: ""
-excerpt: "About me"
+title: "Mateusz Dadej"
+seo_title: "Mateusz Dadej — Economist, Central & Eastern Europe"
+description: "Economist covering Central and Eastern Europe and Central Asia at Coface. PhD in quantitative methods for macro-financial stability, board member of the Association of Polish Economists."
 author_profile: true
 redirect_from: 
   - /about/

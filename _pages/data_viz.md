@@ -1,5 +1,6 @@
 ---
 title: "Data visualization"
+description: "Data visualisations built in R and ggplot2 — Polish and CEE macroeconomic, financial market and election charts."
 permalink: /data_viz/
 author_profile: true
 ---

@@ -1,6 +1,7 @@
 ---
 layout: archive
-title: ""
+title: "In the media"
+description: "Media appearances and expert commentary on CEE macroeconomics, corporate insolvencies and trade — TVP World, L'Express, Les Echos, Rzeczpospolita, Bloomberg Adria. Available to journalists for interviews and background."
 permalink: /in_media/
 author_profile: true
 ---

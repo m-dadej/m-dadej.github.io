@@ -3,6 +3,7 @@ title: "Role of the Machine Learning Algorithms in Financial Services Sector"
 collection: publications
 permalink: /publication/2018-12-01-paper-title-number-2
 excerpt: ''
+description: "On the role of machine learning algorithms in the financial services sector. Published in Issues of Management in a Knowledge-based Economy, Cracow University of Economics Publishing, 2018."
 date: 2018-12-01
 venue: 'Issues of Management in Knowledge - based Economy'
 paperurl: 'https://m-dadej.github.io/files/wybrane_problemy_zarzadzania.pdf'

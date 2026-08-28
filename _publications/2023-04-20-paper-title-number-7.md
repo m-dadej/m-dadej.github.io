@@ -3,6 +3,7 @@ title: "Business cycle transmission between France and United Kingdom"
 collection: publications
 permalink: /publication/2023-04-20-paper-title-number-7
 excerpt: ''
+description: "Empirical study of business cycle transmission between France and the United Kingdom. Published in the Journal of Economic Studies, Vol. 50 No. 8, 2023."
 date: 2023-04-20
 venue: 'Journal of Economic Studies'
 paperurl: 'https://www.emerald.com/insight/content/doi/10.1108/JES-01-2023-0044/full/html'

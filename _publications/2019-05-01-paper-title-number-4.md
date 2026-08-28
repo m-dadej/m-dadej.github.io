@@ -4,9 +4,10 @@ WSE"
 collection: publications
 permalink: /publication/2019-05-01-paper-title-number-4
 excerpt: ''
+description: "Applying ensemble gradient boosting decision trees to forecast stock prices on the Warsaw Stock Exchange. Published in Nasze Studia, University of Gdansk Publishing, 2019."
 date: 2019-05-01
 venue: 'Our Studies'
-paperurl: 'https://m-dadej.github.io/files/wybrane_problemy_zarzadzania.pdf'
+paperurl: 'http://ekonom.ug.edu.pl/web/download.php?OpenFile=3099'
 citation: 'Dadej M., (2019). &quot;Application of Ensemble Gradient Boosting Decision Trees to Forecast Stock Prices on
 WSE.&quot; <i>Nasze Studia.</i>..'
 ---

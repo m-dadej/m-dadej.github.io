@@ -3,6 +3,7 @@ title: "Agent-based modelling of macroeconomic shocks in a banking sector"
 collection: publications
 permalink: /publication/2020-05-01-paper-title-number-5
 excerpt: ''
+description: "An agent-based model of how macroeconomic shocks propagate through a banking sector, with reproducible R code. Published in Nasze Studia, University of Gdansk Publishing, 2020."
 date: 2020-05-01
 venue: 'Our Studies'
 paperurl: 'http://ekonom.ug.edu.pl/web/download.php?OpenFile=3752'

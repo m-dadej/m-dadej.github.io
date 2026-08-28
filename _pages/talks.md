@@ -1,5 +1,6 @@
 ---
-title: ""
+title: "Talks and presentations"
+description: "Conference talks and seminars on systemic risk, financial connectedness and contagion — Oxford FFM29, Warsaw MMF, Aix-Marseille QFFE, Bielefeld, Viadrina."
 permalink: /talks/
 author_profile: true
 ---

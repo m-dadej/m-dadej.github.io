@@ -4,6 +4,7 @@ Market"
 collection: publications
 permalink: /publication/2020-09-01-paper-title-number-6
 excerpt: ''
+description: "Short position disclosures and subsequent performance of the underlying stock, using evidence from the Polish stock market. Published in Finanse i Prawo Finansowe, 2020."
 date: 2020-09-01
 venue: 'Finanse i Prawo Finansowe'
 paperurl: 'https://czasopisma.uni.lodz.pl/fipf/article/view/8488'

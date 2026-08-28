@@ -10,10 +10,10 @@ locale                   : "en-US"
 title                    : "Mateusz Dadej"
 title_separator          : "-"
 name                     : &name "Mateusz Dadej"
-description              : &description "personal description"
+description              : &description "Economist covering Central and Eastern Europe and Central Asia at Coface. PhD in quantitative methods for macro-financial stability; board member, Association of Polish Economists."
 url                      : https://m-dadej.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/m-dadej/academicpages.github.io"
+repository               : "m-dadej/m-dadej.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,29 +57,25 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "mateusz_dadej"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "og-image.png" # Open Graph/Twitter default site image, relative to /images/
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Person" # Person or Organization (defaults to Person)
+  name                   : "Mateusz Dadej" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://www.linkedin.com/in/mateusz-dadej-b9045b162/"
+    - "https://github.com/m-dadej"
+    - "https://x.com/mateusz_dadej"
 
 # Google Analytics
+# NOTE: the tag itself is hardcoded in _includes/analytics.html, which ignores this value.
 google_analytics: G-05BCCWTFWZ
-
-
-# Analytics
-analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
-      
 
 
 # Site Author
@@ -136,9 +132,11 @@ exclude:
   - CHANGELOG
   - Capfile
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - LICENSE
   - README
+  - README.md
   - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
@@ -150,6 +148,12 @@ exclude:
   - package.json
   - tmp
   - vendor
+  # template tooling — not content, must stay out of the sitemap
+  - _config.dev.yml
+  - markdown_generator
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
 keep_files:
   - .git
   - .svn
@@ -179,16 +183,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -213,15 +208,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -231,23 +217,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:
@@ -259,7 +228,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Warsaw # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

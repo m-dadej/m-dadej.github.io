@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "CV"
-    url: /files/short_cv.pdf
+    url: /cv/
 
   - title: "Publications"
     url: /publications/
@@ -12,8 +12,8 @@ main:
   - title: "In Media"
     url: /in_media/
 
-#  - title: "Posts"
-#    url: /year-archive/
+  - title: "Posts"
+    url: /year-archive/
 
   - title: "Code"
     url: /code/

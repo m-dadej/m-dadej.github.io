@@ -1,6 +1,7 @@
 ---
 layout: archive
-title: ""
+title: "Code and software"
+description: "Open-source software including MarSwitching.jl, a Julia package for Markov switching (regime-switching) models published in the Journal of Open Source Software."
 permalink: /code/
 author_profile: true
 ---

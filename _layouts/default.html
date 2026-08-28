@@ -11,13 +11,8 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
 
-    {% include analytics.html %}
-    
-    <!-- Below was used before dont know f its important -->
-    <!-- {% if site.google_analytics and jekyll.environment == 'production' %} -->
-    <!-- {% include analytics.html %} -->
-    <!-- {% endif %} -->
-        
+    {% if jekyll.environment == 'production' %}{% include analytics.html %}{% endif %}
+
   </head>
 
   <body>

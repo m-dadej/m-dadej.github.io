@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Publications"
+description: "Peer-reviewed and working papers on systemic risk, financial contagion, business cycle transmission and computational economics."
 permalink: /publications/
 author_profile: true
 ---
@@ -19,8 +20,8 @@ Endogenous Financial Networks" with Andrea Modena (Draft soon).
 
 ## Published papers:
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% if site.author.googlescholar %}
+  You can also find my articles on <u><a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</u>
 {% endif %}
 
 {% include base_path %}
