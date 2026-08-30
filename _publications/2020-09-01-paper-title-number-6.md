@@ -2,7 +2,9 @@
 title: "Short Position Disclosures and Underlying Stock Performance: Evidence from Polish Stock
 Market"
 collection: publications
-permalink: /publication/2020-09-01-paper-title-number-6
+permalink: /publications/short-position-disclosures-poland/
+redirect_from:
+  - /publication/2020-09-01-paper-title-number-6
 excerpt: ''
 description: "Short position disclosures and subsequent performance of the underlying stock, using evidence from the Polish stock market. Published in Finanse i Prawo Finansowe, 2020."
 date: 2020-09-01

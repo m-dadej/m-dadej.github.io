@@ -35,17 +35,20 @@
   <meta name="description" content="{{ seo_description }}">
 {% endif %}
 
-{% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
-{% if seo_author %}
-  {% if seo_author.twitter %}
-    {% assign seo_author_twitter = seo_author.twitter %}
-  {% else %}
-    {% if site.data.authors and site.data.authors[seo_author] %}
-      {% assign seo_author_twitter = site.data.authors[seo_author].twitter  %}
-    {% else %}
-      {% assign seo_author_twitter = seo_author  %}
-    {% endif %}
-  {% endif %}
+{% comment %}
+  page.author is a plain String on the posts ("Mateusz Dadej"), so seo_author.twitter
+  is nil and the old fallback assigned the *name* as the handle, emitting
+  twitter:creator="@Mateusz Dadej". Resolve a real handle or emit nothing.
+{% endcomment %}
+{% assign seo_author = page.author | default: site.author %}
+{% if seo_author.twitter %}
+  {% assign seo_author_twitter = seo_author.twitter %}
+{% elsif site.data.authors and site.data.authors[seo_author] %}
+  {% assign seo_author_twitter = site.data.authors[seo_author].twitter %}
+{% else %}
+  {% assign seo_author_twitter = site.author.twitter %}
+{% endif %}
+{% if seo_author_twitter %}
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
@@ -115,14 +118,80 @@
   <link rel="next" href="{{ paginator.next_page_path | prepend: seo_url }}">
 {% endif %}
 
-{% if site.social %}
+{% comment %}
+  Person entity. Emitted on real pages only (skipped on 404) so the knowledge graph
+  sees one consistent subject. Publication pages additionally emit ScholarlyArticle below.
+{% endcomment %}
+{% if site.social and page.url != "/404.html" %}
   <script type="application/ld+json">
     {
-      "@context" : "https://schema.org",
-      "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
-      "name" : "{{ site.social.name | default: site.name }}",
-      "url" : {{ seo_url | jsonify }},
-      "sameAs" : {{ site.social.links | jsonify }}
+      "@context": "https://schema.org",
+      "@type": "{{ site.social.type | default: 'Person' }}",
+      "name": {{ site.social.name | default: site.name | jsonify }},
+      "url": {{ seo_url | jsonify }},
+      "image": {{ site.og_image | prepend: "/images/" | prepend: seo_url | jsonify }},
+      "jobTitle": {{ site.author.jobtitle | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "worksFor": {
+        "@type": "Organization",
+        "name": {{ site.author.employer | jsonify }},
+        "url": "https://www.coface.com/"
+      },
+      "homeLocation": {
+        "@type": "Place",
+        "name": {{ site.author.location | jsonify }}
+      },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "University of Brescia", "url": "https://www.unibs.it/en" },
+        { "@type": "CollegeOrUniversity", "name": "University of Gdańsk", "url": "https://ug.edu.pl/" },
+        { "@type": "CollegeOrUniversity", "name": "University of Pisa", "url": "https://www.unipi.it/index.php/english" }
+      ],
+      "knowsAbout": [
+        "Macroeconomics",
+        "Corporate insolvency",
+        "Central and Eastern European economies",
+        "Systemic risk",
+        "Financial contagion",
+        "Regime-switching models",
+        "Empirical finance"
+      ],
+      "sameAs": {{ site.social.links | jsonify }}
+    }
+  </script>
+{% endif %}
+
+{% if page.collection == "publications" %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ScholarlyArticle",
+      "headline": {{ page.title | jsonify }},
+      "name": {{ page.title | jsonify }},
+      {% if page.description %}"abstract": {{ page.description | jsonify }},{% endif %}
+      "author": {
+        "@type": "Person",
+        "name": {{ site.name | jsonify }},
+        "url": {{ seo_url | jsonify }}
+      },
+      "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+      {% if page.venue %}"isPartOf": {
+        "@type": "Periodical",
+        "name": {{ page.venue | strip_newlines | jsonify }}
+      },{% endif %}
+      {% assign doi = page.citation | split: "https://doi.org/" | last %}
+      {% if page.citation contains "https://doi.org/" %}
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": {{ doi | strip | jsonify }}
+      },
+      "sameAs": {{ doi | strip | prepend: "https://doi.org/" | jsonify }},
+      {% endif %}
+      "url": {{ page.url | prepend: seo_url | jsonify }}
+      {% if page.paperurl %},"encoding": {
+        "@type": "MediaObject",
+        "contentUrl": {{ page.paperurl | jsonify }}
+      }{% endif %}
     }
   </script>
 {% endif %}

@@ -1,7 +1,9 @@
 ---
 title: "Business cycle transmission between France and United Kingdom"
 collection: publications
-permalink: /publication/2023-04-20-paper-title-number-7
+permalink: /publications/business-cycle-transmission-france-uk/
+redirect_from:
+  - /publication/2023-04-20-paper-title-number-7
 excerpt: ''
 description: "Empirical study of business cycle transmission between France and the United Kingdom. Published in the Journal of Economic Studies, Vol. 50 No. 8, 2023."
 date: 2023-04-20

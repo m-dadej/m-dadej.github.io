@@ -1,94 +1,57 @@
 ---
 title: "Talks and presentations"
-description: "Conference talks and seminars on systemic risk, financial connectedness and contagion — Oxford FFM29, Warsaw MMF, Aix-Marseille QFFE, Bielefeld, Viadrina."
+description: "Conference talks and seminars on systemic risk, financial connectedness and contagion in financial networks — Oxford FFM29, Warsaw Money-Macro-Finance, Aix-Marseille QFFE, Bielefeld and Viadrina."
 permalink: /talks/
 author_profile: true
 ---
 
-<br> <br>
-<b>Date</b>: September, 2024
-<br>
-<b>Title</b>: Systemic risk and financial connectedness: empirical evidence - [slides](/files/empirical_oxford.pdf)
-<br>
-<b>Seminar</b>: [The 29th Forecasting Financial Markets Conference (FFM29)](https://ffmconference.com/)
-<br>
-<b>Location</b>: University of Oxford, United Kingdom
+Conference talks and seminars, mostly on systemic risk, financial connectedness and
+contagion in financial networks. The underlying papers are on my
+[publications page](/publications/).
 
-<br> <br>
-<b>Date</b>: September, 2024
-<br>
-<b>Title</b>: Systemic risk and financial connectedness: empirical evidence
-<br>
-<b>Seminar</b>: [6th Warsaw Money-Macro-Finance Conference](https://icea-poland.wne.uw.edu.pl/)
-<br>
-<b>Location</b>: University of Warsaw, Poland
+## The 29th Forecasting Financial Markets Conference (FFM29)
 
-<br> <br>
-<b>Date</b>: July, 2024
-<br>
-<b>Title</b>: Systemic risk and financial connectedness: empirical evidence 
-<br>
-<b>Seminar</b>: [Doctoral Finance Symposium](https://dfs2024.com/)
-<br>
-<b>Location</b>: ICMA Centre, Henley Business School
-University of Reading, United Kingdom
+**Systemic risk and financial connectedness: empirical evidence** — [slides](/files/empirical_oxford.pdf)
+September 2024 · [FFM29](https://ffmconference.com/) · University of Oxford, United Kingdom
 
-<br> <br>
-<b>Date</b>: June, 2024 
-<br>
-<b>Title</b>: Systemic risk and financial connectedness: empirical evidence - [slides](/files/empirical_marseille.pdf)
-<br>
-<b>Seminar</b>: [QFFE - Quantitative Finance and Financial Econometrics](https://qffe2024.sciencesconf.org/)
-<br>
-<b>Location</b>: Aix-Marseille School of Economics, Marseille, France
+## 6th Warsaw Money-Macro-Finance Conference
 
-<br> <br>
-<b>Date</b>: May, 2024 
-<br>
-<b>Title</b>: Systemic risk and financial connectedness: empirical evidence 
-<br>
-<b>Seminar</b>: [3rd Prof. Jan Winiecki Scientific Conference "Economic shocks, resilience and institutions"](https://www.vcpu.europa-uni.de/en/research/conferences/index.html)
-<br>
-<b>Location</b>: European University Viadrina, Germany
+**Systemic risk and financial connectedness: empirical evidence**
+September 2024 · [Warsaw MMF](https://icea-poland.wne.uw.edu.pl/) · University of Warsaw, Poland
 
-<br> <br>
-<b>Date</b>: October, 2023
-<br>
-<b>Title</b>: Risk Aversion Heterogeneity and Contaigion in Endogenous Financial Networks
-<br>
-<b>Seminar</b>: Internal Seminar of Phd students at the Department of Economics
-<br>
-<b>Location</b>: University of Brescia, Italy
+## Doctoral Finance Symposium, Henley Business School
 
-<br> <br>
-<b>Date</b>: April, 2023 
-<br>
-<b>Title</b>: Risk Aversion Heterogeneity and Contaigion in Endogenous Financial Networks
-<br>
-<b>Seminar</b>: [Summer school “Risk and Uncertainty in Economics, Insurance and Finance”](https://sites.google.com/view/summer-school-23/overview)
-<br>
-<b>Location</b>: University of Bielefeld, Germany
+**Systemic risk and financial connectedness: empirical evidence**
+July 2024 · [Doctoral Finance Symposium](https://dfs2024.com/) · ICMA Centre, Henley Business School, University of Reading, United Kingdom
 
-<br> <br>
-<b>Date</b>: 2021 
-<br>
-<b>Title</b>: (In polish) Static rebalancing problem in bike sharing system on example of Toruń - heuristic
-approach, together with Julia Karpińska
-<br>
-<b>Seminar</b>: VI Interdisciplinary Student’s Conference
-<br>
-<b>Award</b>: 1st place for economics paper
-<br>
-<b>Location</b>: West Pomeranian University of Technology and Virtual, Szczecin, Poland
+## QFFE — Quantitative Finance and Financial Econometrics
 
+**Systemic risk and financial connectedness: empirical evidence** — [slides](/files/empirical_marseille.pdf)
+June 2024 · [QFFE 2024](https://qffe2024.sciencesconf.org/) · Aix-Marseille School of Economics, Marseille, France
 
-<br> <br>
-<b>Date</b>: 2018 
-<br>
-<b>Title</b>: (In polish) Bank Deposit Guarantee Systems Around the World - a Comparative
-Analysis
-<br>
-<b>Seminar</b>: Consumer protection in the financial services market, Electronic distribution
-channels
-<br>
-<b>Location</b>: University of Łódź, Poland
+## 3rd Prof. Jan Winiecki Scientific Conference
+
+**Systemic risk and financial connectedness: empirical evidence**
+May 2024 · ["Economic shocks, resilience and institutions"](https://www.vcpu.europa-uni.de/en/research/conferences/index.html) · European University Viadrina, Germany
+
+## Department of Economics seminar, University of Brescia
+
+**Risk Aversion Heterogeneity and Contagion in Endogenous Financial Networks**
+October 2023 · Internal seminar of PhD students · University of Brescia, Italy
+
+## Summer school, University of Bielefeld
+
+**Risk Aversion Heterogeneity and Contagion in Endogenous Financial Networks**
+April 2023 · [Risk and Uncertainty in Economics, Insurance and Finance](https://sites.google.com/view/summer-school-23/overview) · University of Bielefeld, Germany
+
+## VI Interdisciplinary Student's Conference
+
+<span lang="pl">**Static rebalancing problem in bike sharing system on example of Toruń — heuristic approach**</span> (in Polish), with Julia Karpińska
+2021 · West Pomeranian University of Technology, Szczecin, Poland
+**Awarded 1st place for the economics paper.**
+
+## Consumer protection in the financial services market
+
+<span lang="pl">**Bank Deposit Guarantee Systems Around the World — a Comparative Analysis**</span> (in Polish)
+2018 · Electronic distribution channels · University of Łódź, Poland
+Published as [a paper in Finanse i Prawo Finansowe](/publications/bank-deposit-guarantee-systems/).

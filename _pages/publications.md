@@ -6,19 +6,20 @@ permalink: /publications/
 author_profile: true
 ---
 
+My research is on systemic risk, financial contagion and business cycle transmission, with a
+methodological interest in regime-switching models. I have presented most of this work at
+[conferences and seminars](/talks/).
+
+## Working papers
+
+- **[Systemic Risk and Financial Connectedness: Empirical Evidence](https://m-dadej.github.io/files/connectedness.pdf)**, with Roberto Savona. [Replication code on GitHub](https://github.com/m-dadej/robust_fragile) and [slides from the Oxford FFM29 conference](https://m-dadej.github.io/files/empirical_oxford.pdf).
+- **Risk Aversion Heterogeneity and Contagion in Endogenous Financial Networks**, with Andrea Modena. Draft coming soon.
+
 ## Opinion pieces
 
-- (In polish) "O unii rynków kapitałowych Unia Europejska dyskutuje już od dekady" as part of opinions column for Association of Polish Economists. [link](https://tep.org.pl/unia-rynkow-kapitalowych/)
+- <span lang="pl">"O unii rynków kapitałowych Unia Europejska dyskutuje już od dekady"</span> — [on the European capital markets union](https://tep.org.pl/unia-rynkow-kapitalowych/), written in Polish for the opinion column of the Association of Polish Economists.
 
-## Working papers:
-
-- ["Systemic Risk and Financial Connectedness:
-Empirical Evidence"](https://m-dadej.github.io/files/connectedness.pdf) with Roberto Savona. Check out the [code](https://github.com/m-dadej/robust_fragile) and [slides](https://m-dadej.github.io/files/empirical_oxford.pdf). 
-
-- "Risk Aversion Heterogeneity and Contagion in
-Endogenous Financial Networks" with Andrea Modena (Draft soon).
-
-## Published papers:
+## Published papers
 
 {% if site.author.googlescholar %}
   You can also find my articles on <u><a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</u>

@@ -1,7 +1,9 @@
 ---
 title: "MarSwitching.jl: A Julia package for Markov switching dynamic models"
 collection: publications
-permalink: /publication/2024-06-14-joss-marswitching
+permalink: /publications/marswitching-jl-julia-markov-switching/
+redirect_from:
+  - /publication/2024-06-14-joss-marswitching
 excerpt: ''
 description: "MarSwitching.jl, a Julia package for estimating Markov switching (regime-switching) dynamic models. Published in the Journal of Open Source Software, 2024."
 date: 2024-06-14
