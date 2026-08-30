@@ -9,7 +9,7 @@ description: "Komentarze eksperckie Mateusza Dadeja w polskich mediach — TVN24
 author_profile: true
 ---
 
-Jako **główny ekonomista ds. regionu Europy Środkowo-Wschodniej** w Coface regularnie komentuję
+Jako **główny ekonomista w Polsce oraz regionie Europy Środkowo-Wschodniej** w Coface regularnie komentuję
 w mediach sytuację gospodarczą regionu: **niewypłacalności przedsiębiorstw**, koniunkturę, handel
 zagraniczny oraz gospodarcze skutki wydarzeń geopolitycznych.
 

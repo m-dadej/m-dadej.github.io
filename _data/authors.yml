@@ -1,0 +1,20 @@
+# Locale-specific author profiles for the sidebar.
+#
+# _includes/author-profile.html resolves, in order:
+#   1. site.data.authors[page.author]   - explicit per-page override
+#   2. site.data.authors[lang]          - the current page's language (this file)
+#   3. site.author                      - the default, from _config.yml (English)
+#
+# So only non-English locales need an entry here; English falls through to _config.yml.
+# Keys omitted below simply inherit nothing - repeat any social link you want shown.
+
+pl:
+  name             : "dr Mateusz Dadej"
+  avatar           : "mateusz-dadej.jpg"
+  bio              : "Ekonomista sektora prywatnego zajmujący się regionem Europy Środkowo-Wschodniej. Zainteresowania: makroekonomia, finanse i analiza danych."
+  location         : "Warszawa, Polska"
+  employer         : "Coface"
+  email            : "mateuszdadej@gmail.com"
+  github           : "m-dadej"
+  linkedin         : "mateusz-dadej-b9045b162/"
+  twitter          : "mateusz_dadej"

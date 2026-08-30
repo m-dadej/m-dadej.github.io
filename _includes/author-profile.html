@@ -1,7 +1,12 @@
 {% include base_path %}
+{% include locale %}
 
 {% if page.author and site.data.authors[page.author] %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+  {% assign author = site.data.authors[page.author] %}
+{% elsif site.data.authors[lang] %}
+  {% assign author = site.data.authors[lang] %}
+{% else %}
+  {% assign author = site.author %}
 {% endif %}
 
 <div itemscope itemtype="https://schema.org/Person">
@@ -20,7 +25,7 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <button class="btn btn--inverse">{{ site.data.ui-text[locale].follow_label | default: "Follow" | remove: ":" }}</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>

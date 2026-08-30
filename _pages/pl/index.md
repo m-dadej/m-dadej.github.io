@@ -9,22 +9,18 @@ description: "Główny ekonomista ds. Europy Środkowo-Wschodniej w Coface. Makr
 author_profile: true
 ---
 
-Jestem **głównym ekonomistą odpowiedzialnym za region Europy Środkowo-Wschodniej** w
-[Coface](https://www.coface.com/), francuskim ubezpieczycielu należności handlowych. Zajmuję się
-gospodarkami Europy Środkowo-Wschodniej i Azji Centralnej. Jestem również członkiem Rady
-[Towarzystwa Ekonomistów Polskich](https://tep.org.pl/).
+Jestem **głównym ekonomistą dw Polsce oraz regionie Europy-Środkowo-Wschodniej** w
+[Coface](https://www.coface.com/). Pełnię również funkcję członka Rady [Towarzystwa Ekonomistów Polskich](https://tep.org.pl/).
 
 ## Czym się zajmuję
 
-W pracy zajmuję sie przede wszystkim warunkami makroekonomicznymi w regionie Europy Środkowo-Wschodniej. Poza tym zajmuję się wzrostem gospodarczym, handlem międzynarodowym, wpływem geopolityki
-na gospodarkę oraz sytuacją poszczególnych krajów regionu — od Polski i Czech po Bałkany Zachodnie
+W pracy zajmuję sie przede wszystkim warunkami makroekonomicznymi w regionie Europy Środkowo-Wschodniej. Poza tym interesuję się wzrostem gospodarczym, handlem międzynarodowym, wpływem geopolityki na gospodarkę oraz sytuacją poszczególnych krajów regionu — od Polski i Czech po Bałkany Zachodnie
 i Azję Centralną.
 
-Regularnie komentuję te tematy w mediach. Wybrane wywiady znajdują się na stronie
+Regularnie komentuję te tematy w mediach. Niektóre wywiady znajdują się w zakladcę
 [w mediach](/pl/w-mediach/).
 
-Naukowo zajmuję się **ryzykiem systemowym, zarażaniem finansowym i transmisją cykli
-koniunkturalnych**. Moje artykuły są dostępne na stronie
+Naukowo zajmuję się **ryzykiem systemowym, stabilnością finansową oraz metodami ilościowymi**. Moje artykuły są dostępne na stronie
 [publikacji](/publications/) (w języku angielskim).
 
 ## Wykształcenie
@@ -39,14 +35,14 @@ Przed doktoratem pracowałem jako analityk ilościowy w banku inwestycyjnym, gdz
 testów warunków skrajnych. Jestem autorem kilku artykułów z zakresu ekonomii obliczeniowej i
 finansów empirycznych. Tworzę też [oprogramowanie open source](/code/) — m.in.
 [MarSwitching.jl](/publications/marswitching-jl-julia-markov-switching/), pakiet języka Julia do
-modeli przełącznikowych Markowa.
+modeli typu Marov-switching regression.
 
 ## Dla dziennikarzy
 
-Regularnie udzielam komentarzy eksperckich na temat makroekonomii Europy Środkowo-Wschodniej,
-niewypłacalności firm, handlu zagranicznego i gospodarczych skutków wydarzeń geopolitycznych.
+Regularnie udzielam komentarzy eksperckich na tematy gospodarcze w Polsce i Europie Środkowo-Wschodniej,
+kondycji przedsiębiorstw, handlu zagranicznego i gospodarczych skutków wydarzeń geopolitycznych.
 Dziennikarze zajmujący się tematyką gospodarczą lub regionem CEE są serdecznie zaproszeni do
-kontaktu — dane kontaktowe i wybór dotychczasowych wystąpień znajdują się
+kontaktu — dane kontaktowe i dotychczasowe wystąpienia znajdują się
 [na stronie „w mediach"](/pl/w-mediach/).
 
 ---
