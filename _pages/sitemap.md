@@ -10,8 +10,18 @@ author_profile: true
 A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
 
 <h2>Pages</h2>
+{% comment %} English pages only; the Polish subtree gets its own section below. {% endcomment %}
 {% for post in site.pages %}
-  {% include archive-single.html %}
+  {% unless post.locale %}
+    {% include archive-single.html %}
+  {% endunless %}
+{% endfor %}
+
+<h2 lang="pl">Strony po polsku</h2>
+{% for post in site.pages %}
+  {% if post.locale %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 
 <h2>Posts</h2>

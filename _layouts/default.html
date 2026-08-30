@@ -2,10 +2,12 @@
 layout: compress
 ---
 
+{% include locale %}
+
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{{ lang }}" class="no-js">
   <head>
 
     {% include head.html %}

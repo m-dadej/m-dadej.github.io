@@ -3,6 +3,7 @@ layout: archive
 title: "In the media"
 description: "Expert commentary on Central and Eastern European macroeconomics, corporate insolvencies and trade — TVP World, L'Express, Les Echos, Rzeczpospolita, Bloomberg Adria. Available to journalists for interviews and background."
 permalink: /in_media/
+ref: media
 author_profile: true
 ---
 

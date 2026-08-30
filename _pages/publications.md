@@ -17,7 +17,10 @@ methodological interest in regime-switching models. I have presented most of thi
 
 ## Opinion pieces
 
-- <span lang="pl">"O unii rynków kapitałowych Unia Europejska dyskutuje już od dekady"</span> — [on the European capital markets union](https://tep.org.pl/unia-rynkow-kapitalowych/), written in Polish for the opinion column of the Association of Polish Economists.
+As part of the "TEP o gospodarce" opinion column of the Association of Polish Economists:
+
+- <span lang="pl">"O unii rynków kapitałowych Unia Europejska dyskutuje już od dekady"</span> — [on the European capital markets union](https://tep.org.pl/unia-rynkow-kapitalowych/), 
+- <span lang="pl">"Euroobligacje to szansa dla polityki gospodarczej UE"</span> — [on the eurobonds](https://tep.org.pl/euroobligacje-to-szansa-dla-polityki-gospodarczej-ue-tog-27-2025/)
 
 ## Published papers
 

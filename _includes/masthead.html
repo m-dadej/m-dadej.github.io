@@ -1,4 +1,12 @@
 {% include base_path %}
+{% include locale %}
+
+{% comment %}
+  nav_key lets a page pick a different menu (Polish pages set `nav: main_pl`).
+  Same site.data.navigation[key] indirection that _includes/nav_list already uses.
+{% endcomment %}
+{% assign nav_key = page.nav | default: 'main' %}
+{% if page.locale %}{% assign home_url = '/pl/' %}{% else %}{% assign home_url = '/' %}{% endif %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -6,8 +14,8 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}{{ home_url }}">{{ site.title }}</a></li>
+          {% for link in site.data.navigation[nav_key] %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
               {% else %}
@@ -15,6 +23,21 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          {% comment %} Language switcher: jump to the paired `ref` translation, else the other homepage. {% endcomment %}
+          {% if page.ref %}
+            {% assign siblings = site.pages | where: "ref", page.ref %}
+            {% for t in siblings %}
+              {% unless t.url == page.url %}
+                <li class="masthead__menu-item"><a href="{{ base_path }}{{ t.url }}" hreflang="{{ t.locale | default: site.locale | slice: 0,2 }}" lang="{{ t.locale | default: site.locale | slice: 0,2 }}">{% if t.locale %}Polski{% else %}English{% endif %}</a></li>
+              {% endunless %}
+            {% endfor %}
+          {% else %}
+            {% if page.locale %}
+              <li class="masthead__menu-item"><a href="{{ base_path }}/" hreflang="en" lang="en">English</a></li>
+            {% else %}
+              <li class="masthead__menu-item"><a href="{{ base_path }}/pl/" hreflang="pl" lang="pl">Polski</a></li>
+            {% endif %}
+          {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

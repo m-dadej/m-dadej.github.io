@@ -1,0 +1,54 @@
+---
+permalink: /pl/
+ref: home
+locale: "pl-PL"
+nav: main_pl
+title: "Mateusz Dadej"
+seo_title: "Mateusz Dadej — ekonomista, Europa Środkowo-Wschodnia"
+description: "Główny ekonomista ds. Europy Środkowo-Wschodniej w Coface. Makroekonomia, niewypłacalności przedsiębiorstw i finanse ilościowe. Komentarz ekspercki dla mediów."
+author_profile: true
+---
+
+Jestem **głównym ekonomistą odpowiedzialnym za region Europy Środkowo-Wschodniej** w
+[Coface](https://www.coface.com/), francuskim ubezpieczycielu należności handlowych. Zajmuję się
+gospodarkami Europy Środkowo-Wschodniej i Azji Centralnej. Jestem również członkiem Rady
+[Towarzystwa Ekonomistów Polskich](https://tep.org.pl/).
+
+## Czym się zajmuję
+
+W pracy zajmuję sie przede wszystkim warunkami makroekonomicznymi w regionie Europy Środkowo-Wschodniej. Poza tym zajmuję się wzrostem gospodarczym, handlem międzynarodowym, wpływem geopolityki
+na gospodarkę oraz sytuacją poszczególnych krajów regionu — od Polski i Czech po Bałkany Zachodnie
+i Azję Centralną.
+
+Regularnie komentuję te tematy w mediach. Wybrane wywiady znajdują się na stronie
+[w mediach](/pl/w-mediach/).
+
+Naukowo zajmuję się **ryzykiem systemowym, zarażaniem finansowym i transmisją cykli
+koniunkturalnych**. Moje artykuły są dostępne na stronie
+[publikacji](/publications/) (w języku angielskim).
+
+## Wykształcenie
+
+Doktorat obroniłem na [Uniwersytecie w Brescii](https://www.unibs.it/en), gdzie zajmowałem się
+metodami ilościowymi w analizie stabilności makrofinansowej. W trakcie studiów doktoranckich byłem
+także badaczem wizytującym na [Uniwersytecie w Mannheim](https://www.uni-mannheim.de/). Studia
+magisterskie z ekonomii ukończyłem na [Uniwersytecie Gdańskim](https://ug.edu.pl/), w ramach
+wymiany studiowałem również na [Uniwersytecie w Pizie](https://www.unipi.it/index.php/english).
+
+Przed doktoratem pracowałem jako analityk ilościowy w banku inwestycyjnym, gdzie budowałem modele
+testów warunków skrajnych. Jestem autorem kilku artykułów z zakresu ekonomii obliczeniowej i
+finansów empirycznych. Tworzę też [oprogramowanie open source](/code/) — m.in.
+[MarSwitching.jl](/publications/marswitching-jl-julia-markov-switching/), pakiet języka Julia do
+modeli przełącznikowych Markowa.
+
+## Dla dziennikarzy
+
+Regularnie udzielam komentarzy eksperckich na temat makroekonomii Europy Środkowo-Wschodniej,
+niewypłacalności firm, handlu zagranicznego i gospodarczych skutków wydarzeń geopolitycznych.
+Dziennikarze zajmujący się tematyką gospodarczą lub regionem CEE są serdecznie zaproszeni do
+kontaktu — dane kontaktowe i wybór dotychczasowych wystąpień znajdują się
+[na stronie „w mediach"](/pl/w-mediach/).
+
+---
+
+*This page is also available [in English](/).*

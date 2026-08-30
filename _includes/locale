@@ -1,0 +1,13 @@
+{% comment %}
+  Resolves the active locale for the page being rendered.
+
+  Needed because Liquid forbids filters inside index brackets:
+  site.data.ui-text[page.locale | default: site.locale] is a syntax error.
+  Assign first, then index with the bare variable.
+
+  Include this at the top of every layout that reads site.data.ui-text —
+  layouts render inner-to-outer, so an assign in default.html alone would
+  come too late for single.html / archive.html.
+{% endcomment %}
+{% assign locale = page.locale | default: site.locale %}
+{% assign lang = locale | slice: 0,2 %}

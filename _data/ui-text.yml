@@ -268,3 +268,44 @@ it-IT:
 
 # Another locale
 # --------------
+# Polish
+# ------
+pl: &DEFAULT_PL
+  page                       : "Strona"
+  pagination_previous        : "Poprzednia"
+  pagination_next            : "Następna"
+  breadcrumb_home_label      : "Start"
+  breadcrumb_separator       : "/"
+  toc_label                  : "Na tej stronie"
+  ext_link_label             : "Link bezpośredni"
+  less_than                  : "mniej niż"
+  minute_read                : "min czytania"
+  share_on_label             : "Udostępnij"
+  meta_label                 :
+  tags_label                 : "Tagi:"
+  categories_label           : "Kategorie:"
+  date_label                 : "Opublikowano:"
+  comments_label             : "Zostaw komentarz"
+  comments_title             : "Komentarze"
+  more_label                 : "Czytaj więcej"
+  related_label              : "Może Cię też zainteresować"
+  follow_label               : "Obserwuj:"
+  feed_label                 : "Kanał"
+  powered_by                 : "Zbudowane w"
+  website_label              : "Strona"
+  email_label                : "E-mail"
+  recent_posts               : "Ostatnie wpisy"
+  undefined_wpm              : "Niezdefiniowany parametr words_per_minute w _config.yml"
+  comment_form_info          : "Twój adres e-mail nie zostanie opublikowany. Pola wymagane są oznaczone"
+  comment_form_comment_label : "Komentarz"
+  comment_form_md_info       : "Markdown jest obsługiwany."
+  comment_form_name_label    : "Imię i nazwisko"
+  comment_form_email_label   : "Adres e-mail"
+  comment_form_website_label : "Strona internetowa (opcjonalnie)"
+  comment_btn_submit         : "Wyślij komentarz"
+  comment_btn_submitted      : "Wysłano"
+  comment_success_msg        : "Dziękujemy za komentarz! Pojawi się na stronie po zatwierdzeniu."
+  comment_error_msg          : "Przepraszamy, wystąpił błąd. Upewnij się, że wszystkie wymagane pola zostały wypełnione i spróbuj ponownie."
+  loading_label              : "Wczytywanie..."
+pl-PL:
+  <<: *DEFAULT_PL

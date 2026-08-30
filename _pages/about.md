@@ -1,5 +1,6 @@
 ---
 permalink: /
+ref: home
 title: "Mateusz Dadej"
 seo_title: "Mateusz Dadej — Economist, Central & Eastern Europe"
 description: "Head of Economic Research for Central and Eastern Europe at Coface. PhD in quantitative methods for macro-financial stability; board member of the Association of Polish Economists."

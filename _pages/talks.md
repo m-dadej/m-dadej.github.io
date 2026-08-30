@@ -46,12 +46,12 @@ April 2023 · [Risk and Uncertainty in Economics, Insurance and Finance](https:/
 
 ## VI Interdisciplinary Student's Conference
 
-<span lang="pl">**Static rebalancing problem in bike sharing system on example of Toruń — heuristic approach**</span> (in Polish), with Julia Karpińska
+**Static rebalancing problem in a bike sharing system, on the example of Toruń — a heuristic approach** (talk delivered in Polish), with Julia Karpińska
 2021 · West Pomeranian University of Technology, Szczecin, Poland
 **Awarded 1st place for the economics paper.**
 
 ## Consumer protection in the financial services market
 
-<span lang="pl">**Bank Deposit Guarantee Systems Around the World — a Comparative Analysis**</span> (in Polish)
+**Bank Deposit Guarantee Systems Around the World — a Comparative Analysis** (talk delivered in Polish)
 2018 · Electronic distribution channels · University of Łódź, Poland
 Published as [a paper in Finanse i Prawo Finansowe](/publications/bank-deposit-guarantee-systems/).

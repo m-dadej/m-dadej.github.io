@@ -26,3 +26,22 @@ main:
     
 
 
+
+# Polish menu. The two Polish pages plus the English-only sections, labelled in
+# Polish and pointing at the existing English URLs — better than pretending
+# those sections don't exist for a Polish visitor.
+main_pl:
+  - title: "W mediach"
+    url: /pl/w-mediach/
+
+  - title: "Publikacje"
+    url: /publications/
+
+  - title: "CV"
+    url: /cv/
+
+  - title: "Kod"
+    url: /code/
+
+  - title: "Wizualizacja danych"
+    url: /data_viz/
